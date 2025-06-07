@@ -1,7 +1,7 @@
 export const Bio = {
   name: "V V V N Uday Aditya",
   roles: [
-    "3rd Year Student",
+    "4th Year Student",
     "Full Stack Developer",
     "Android Developer",
     "UI/UX Designer",
@@ -253,42 +253,42 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/68347e8100343a85a28f/view?project=68347d5d000aff536028&mode=admin",
+    school: "Amrita Vishwa Vidyapeetham, Chennai",
+    date: "Oct 2022 - Current",
+    grade: "7.4 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering with Specialization in Artificial Intelligence at Amrita Vishwa Vidyapeetham, Chennai. I have completed 6 semesters and have a CGPA of 7.4. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    degree: "Bachelor of Technology - BTech, Computer Science and Engineering with Specialization in Artificial Intelligence",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/68347fce0037b93dbdee/view?project=68347d5d000aff536028&mode=admin",
+    school: "Sri Chaitanya Junior College, Hyderabad",
+    date: "Apr 2020 - Apr 2022",
+    grade: "84.9%",
+    desc: "I completed my class 12 high school education at Sri Chaitanya Junior College, Hyderabad, where I studied MPC(Mathsc Physics, Chemistry).",
+    degree: "Telangana State Board of Intermediate Education (TSBIE) - Intermediate",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6834800d003289a28c4b/view?project=68347d5d000aff536028&mode=admin",
+    school: "Bharatiya Vidya Bhavan's Atmakuri Rama Rao School, Hyderabad",
+    date: "Apr 2019 - Apr 2020",
+    grade: "77.8%",
+    desc: "I completed my class 10 education at Bharatiya Vidya Bhavan's Atmakuri Rama Rao School, Hyderabad.",
+    degree: "CBSE(X) - Central Board of Secondary Education",
   },
 ];
 
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
+    title: "Real-Time Credit Risk Assessment Using Alternative Data",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "This project uses alternative data and machine learning to assess credit risk in real time. It includes code, datasets, and a research paper detailing the approach, aiming to improve financial inclusion and decision-making accuracy. The model leverages non-traditional indicators like customer behavior and transaction history. It showcases how real-time analytics can enhance risk evaluation in modern financial systems.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/683482f6001af0e4853d/view?project=68347d5d000aff536028&mode=admin",
     tags: [
       "Docker",
       "AWS",
@@ -303,31 +303,43 @@ export const projects = [
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/adityavvvn/Real-Time-Credit-Risk-Assessment-Using-Alternative-Data.git",
+    //webapp: "https://trackify.duckdns.org",
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "Chronic Kidney Disease Prediction using Explainable AI",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "The Chronic Kidney Disease Prediction using Explainable AI project aims to develop a machine learning model for early detection of Chronic Kidney Disease (CKD). By incorporating Explainable AI techniques, the project seeks to provide transparent and interpretable predictions, facilitating better understanding and trust in the model's decisions.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/adityavvvn/Chronic-Kidney-Disease-Prediction-using-Explainable-AI.git",
+    //webapp: "https://podstream.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
+        name: "V V V N Uday Aditya",
         img: "https://avatars.githubusercontent.com/u/64485885?v=4",
         linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         github: "https://github.com/rishavchanda/",
       },
       {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        name: "Manoj Kumar",
+        //img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+            {
+        name: "P Venkat Krushna",
+        //img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+            {
+        name: "Y Girijanandan",
+        //img: "https://avatars.githubusercontent.com/u/100614635?v=4",
         linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
         github: "https://github.com/upasana0710",
       },
@@ -335,10 +347,10 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Vexa",
+    title: "Image Encryption-Decryption Enhanced with SHA-256",
     date: "Oct 2022 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "The Image Encryption-Decryption Enhanced with SHA-256 project focuses on securing image data through encryption and decryption processes augmented with SHA-256 hashing. By integrating SHA-256, the project ensures data integrity and enhances the security of image transmission and storage.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
@@ -350,7 +362,7 @@ export const projects = [
       "NodeMailer",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
+    github: "https://github.com/adityavvvn/Image-Encryption-Decryption-Enhanced-with-SHA-256.git",
     webapp: "https://vexa-app.netlify.app/",
   },
   {

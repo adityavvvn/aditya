@@ -310,7 +310,7 @@ export const projects = [
     description:
       "The Chronic Kidney Disease Prediction using Explainable AI project aims to develop a machine learning model for early detection of Chronic Kidney Disease (CKD). By incorporating Explainable AI techniques, the project seeks to provide transparent and interpretable predictions, facilitating better understanding and trust in the model's decisions.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcb90011c460edab/view?project=68347d5d000aff536028&mode=admin",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "machine learning",
     github: "https://github.com/adityavvvn/Chronic-Kidney-Disease-Prediction-using-Explainable-AI.git",
@@ -349,7 +349,7 @@ export const projects = [
     description:
       "The Image Encryption-Decryption Enhanced with SHA-256 project focuses on securing image data through encryption and decryption processes augmented with SHA-256 hashing. By integrating SHA-256, the project ensures data integrity and enhances the security of image transmission and storage.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcaf0025aa0ae812/view?project=68347d5d000aff536028&mode=admin",
     tags: [
       "React Js",
       "MongoDb",
@@ -369,7 +369,7 @@ export const projects = [
     description:
       "An efficient Parking Slot Management System is essential for modern urban life. It enhances convenience, reduces congestion, and promotes sustainability. A PyQt5-based parking system with real-time monitoring, database integration, and automation can significantly improve parking efficiency in cities.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcce002c3e0db88c/view?project=68347d5d000aff536028&mode=admin",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "python",
     github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
@@ -409,7 +409,7 @@ export const projects = [
     description:
       "Integrating robotics, voice AI, and chatbots into healthcare enhances patient experiences by making healthcare more accessible, efficient, and personalized. These technologies improve hospital operations, enable real-time patient support, and reduce the burden on medical professionals. As AI continues to evolve, the future of healthcare promises even greater innovations, ensuring a seamless and intelligent patient care ecosystem.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcd5003af08845a1/view?project=68347d5d000aff536028&mode=admin",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "python",
     github: "https://github.com/rishavchanda/Job-finder-App",
@@ -422,7 +422,7 @@ export const projects = [
     description:
       "Machine learning-based vehicle anomaly detection enhances safety, efficiency, and predictive maintenance by leveraging sensor data from temperature, sound, and vibrations. Implementing ML models for real-time anomaly detection can reduce breakdowns, optimize vehicle performance, and improve road safety.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bc9e000b4701a127/view?project=68347d5d000aff536028&mode=admin",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
@@ -435,7 +435,7 @@ export const projects = [
     description:
       "Deep learning-based real-time object detection is revolutionizing multiple industries, enabling smart automation, security, healthcare, and robotics. With advancements in hardware acceleration and deep learning architectures, object detection models continue to become faster, more accurate, and more efficient.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcf50010db82ed2c/view?project=68347d5d000aff536028&mode=admin",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Todo-Web-App",
@@ -448,7 +448,7 @@ export const projects = [
     description:
       "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
     image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
+      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866c0ae000ef0206e6c/view?project=68347d5d000aff536028&mode=admin",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Breaking-Bad",

@@ -3,10 +3,10 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ### Weblink: [Live Website](https://rishavchanda.netlify.app)
 ## Some Images:
-<img width="450px;" src="[https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a7e7003b32ac01b7/view?project=68347d5d000aff536028&mode=admin]"/>
-<img width="450px;" src="[https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a7ef003bc5fc04d4/view?project=68347d5d000aff536028&mode=admin]"/>
-<img width="450px;" src="[https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a7fc00322079d396/view?project=68347d5d000aff536028&mode=admin]"/>
-<img width="450px;" src="[https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a809000e89ca5416/view?project=68347d5d000aff536028&mode=admin]"/>
+<img width="450px;" src="https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a7e7003b32ac01b7/view?project=68347d5d000aff536028&mode=admin]/>
+<img width="450px;" src="https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a7ef003bc5fc04d4/view?project=68347d5d000aff536028&mode=admin]/>
+<img width="450px;" src="https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a7fc00322079d396/view?project=68347d5d000aff536028&mode=admin]/>
+<img width="450px;" src="https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866a809000e89ca5416/view?project=68347d5d000aff536028&mode=admin]/>
 
 
 ## Table of Contents

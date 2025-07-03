@@ -360,7 +360,7 @@ export const projects = [
     ],
     category: "python",
     github: "https://github.com/adityavvvn/Image-Encryption-Decryption-Enhanced-with-SHA-256.git",
-    webapp: "https://vexa-app.netlify.app/",
+    /*webapp: "https://vexa-app.netlify.app/",*/
   },
   {
     id: 2,

@@ -18,17 +18,43 @@ transition: all 0.5s ease;
 `;
 
 const Wrapper = styled.div`
-max-width: 800px;
+max-width: 900px;
 width: 100%;
 border-radius: 16px;
 margin: 50px 12px;
 height: min-content;
 background-color: ${({ theme }) => theme.card};
 color: ${({ theme }) => theme.text_primary};
-padding: 20px;
+padding: 36px 32px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
+align-items: center;
 position: relative;
+box-sizing: border-box;
+@media only screen and (max-width: 900px) {
+  flex-direction: column;
+  padding: 24px 8px;
+}
+`;
+
+const LeftSection = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 36px;
+  @media only screen and (max-width: 900px) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+`;
+
+const RightSection = styled.div`
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
 `;
 
 const Title = styled.div`
@@ -66,11 +92,21 @@ const Desc = styled.div`
 `;
 
 const Image = styled.img`
-    width: 100%;
+    width: 220px;
+    height: 220px;
+    max-width: 100%;
+    max-height: 260px;
     object-fit: cover;
     border-radius: 12px;
-    margin-top: 30px;
+    margin-top: 0;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    display: block;
+    @media only screen and (max-width: 900px) {
+        width: 100%;
+        height: auto;
+        max-height: 180px;
+        margin-bottom: 20px;
+    }
 `;
 
 const Label = styled.div`
@@ -188,47 +224,51 @@ const index = ({ openModal, setOpenModal }) => {
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <Container>
                 <Wrapper>
-                    <CloseRounded
-                        style={{
-                            position: "absolute",
-                            top: "10px",
-                            right: "20px",
-                            cursor: "pointer",
-                        }}
-                        onClick={() => setOpenModal({ state: false, project: null })}
-                    />
-                    <Image src={project?.image} />
-                    <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
-                    <Tags>
-                        {project?.tags.map((tag) => (
-                            <Tag>{tag}</Tag>
-                        ))}
-                    </Tags>
-                    <Desc>{project?.description}</Desc>
-                    {project.member && (
-                        <>
-                            <Label>Members</Label>
-                            <Members>
-                                {project?.member.map((member) => (
-                                    <Member>
-                                        <MemberImage src={member.img} />
-                                        <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
-                                            <GitHub />
-                                        </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
-                                            <LinkedIn />
-                                        </a>
-                                    </Member>
-                                ))}
-                            </Members>
-                        </>
-                    )}
-                    <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
-                    </ButtonGroup>
+                    <LeftSection>
+                        <Image src={project?.image} />
+                    </LeftSection>
+                    <RightSection>
+                        <CloseRounded
+                            style={{
+                                position: "absolute",
+                                top: "10px",
+                                right: "20px",
+                                cursor: "pointer",
+                            }}
+                            onClick={() => setOpenModal({ state: false, project: null })}
+                        />
+                        <Title>{project?.title}</Title>
+                        <Date>{project.date}</Date>
+                        <Tags>
+                            {project?.tags.map((tag) => (
+                                <Tag>{tag}</Tag>
+                            ))}
+                        </Tags>
+                        <Desc>{project?.description}</Desc>
+                        {project.member && (
+                            <>
+                                <Label>Members</Label>
+                                <Members>
+                                    {project?.member.map((member) => (
+                                        <Member>
+                                            <MemberImage src={member.img} />
+                                            <MemberName>{member.name}</MemberName>
+                                            <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                                <GitHub />
+                                            </a>
+                                            <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                                <LinkedIn />
+                                            </a>
+                                        </Member>
+                                    ))}
+                                </Members>
+                            </>
+                        )}
+                        <ButtonGroup>
+                            <Button dull href={project?.github} target='new'>View Code</Button>
+                            <Button href={project?.webapp} target='new'>View Live App</Button>
+                        </ButtonGroup>
+                    </RightSection>
                 </Wrapper>
             </Container>
 

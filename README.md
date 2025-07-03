@@ -1,7 +1,7 @@
 # My Portfolio
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-### Weblink: [Live Website](https://rishavchanda.netlify.app)
+### Weblink: [Live Website](https://udayadityavvvn.vercel.app/)
 ## Some Images:
 <img width="450px;" src="https://github.com/adityavvvn/assets/blob/main/images/Screenshot%202025-07-03%20210528.png"/>
 <img width="450px;" src="https://github.com/adityavvvn/assets/blob/main/images/Screenshot%202025-07-03%20210640.png"/>

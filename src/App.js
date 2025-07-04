@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import ProjectDetails from "./components/ProjectDetails";
+import React, { Suspense, lazy } from 'react';
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -26,10 +26,13 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
+
+const ProjectDetails = lazy(() => import('./components/ProjectDetails'));
+
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
@@ -47,7 +50,9 @@ function App() {
           </Wrapper>
           <Footer />
           {openModal.state &&
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+            <Suspense fallback={<div>Loading...</div>}>
+              <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+            </Suspense>
           }
         </Body>
       </Router>

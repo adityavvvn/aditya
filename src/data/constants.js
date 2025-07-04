@@ -310,7 +310,7 @@ export const projects = [
     description:
       "The Chronic Kidney Disease Prediction using Explainable AI project aims to develop a machine learning model for early detection of Chronic Kidney Disease (CKD). By incorporating Explainable AI techniques, the project seeks to provide transparent and interpretable predictions, facilitating better understanding and trust in the model's decisions.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcb90011c460edab/view?project=68347d5d000aff536028&mode=admin",
+      "/images/4.jpg",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "machine learning",
     github: "https://github.com/adityavvvn/Chronic-Kidney-Disease-Prediction-using-Explainable-AI.git",
@@ -349,7 +349,7 @@ export const projects = [
     description:
       "The Image Encryption-Decryption Enhanced with SHA-256 project focuses on securing image data through encryption and decryption processes augmented with SHA-256 hashing. By integrating SHA-256, the project ensures data integrity and enhances the security of image transmission and storage.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcaf0025aa0ae812/view?project=68347d5d000aff536028&mode=admin",
+      "/images/2.jpg",
     tags: [
       "React Js",
       "MongoDb",
@@ -369,7 +369,7 @@ export const projects = [
     description:
       "An efficient Parking Slot Management System is essential for modern urban life. It enhances convenience, reduces congestion, and promotes sustainability. A PyQt5-based parking system with real-time monitoring, database integration, and automation can significantly improve parking efficiency in cities.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcce002c3e0db88c/view?project=68347d5d000aff536028&mode=admin",
+      "/images/10.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "python",
     github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
@@ -409,7 +409,7 @@ export const projects = [
     description:
       "Integrating robotics, voice AI, and chatbots into healthcare enhances patient experiences by making healthcare more accessible, efficient, and personalized. These technologies improve hospital operations, enable real-time patient support, and reduce the burden on medical professionals. As AI continues to evolve, the future of healthcare promises even greater innovations, ensuring a seamless and intelligent patient care ecosystem.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcd5003af08845a1/view?project=68347d5d000aff536028&mode=admin",
+      "/images/11.jpg",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "python",
     github: "https://github.com/rishavchanda/Job-finder-App",
@@ -422,7 +422,7 @@ export const projects = [
     description:
       "Machine learning-based vehicle anomaly detection enhances safety, efficiency, and predictive maintenance by leveraging sensor data from temperature, sound, and vibrations. Implementing ML models for real-time anomaly detection can reduce breakdowns, optimize vehicle performance, and improve road safety.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bc9e000b4701a127/view?project=68347d5d000aff536028&mode=admin",
+      "/images/1.jpg",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
@@ -435,7 +435,7 @@ export const projects = [
     description:
       "Deep learning-based real-time object detection is revolutionizing multiple industries, enabling smart automation, security, healthcare, and robotics. With advancements in hardware acceleration and deep learning architectures, object detection models continue to become faster, more accurate, and more efficient.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866bcf50010db82ed2c/view?project=68347d5d000aff536028&mode=admin",
+      "/images/12.jpg",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Todo-Web-App",
@@ -448,7 +448,7 @@ export const projects = [
     description:
       "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866c0ae000ef0206e6c/view?project=68347d5d000aff536028&mode=admin",
+      "/images/5.png",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Breaking-Bad",
@@ -461,7 +461,7 @@ export const projects = [
     description:
       "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866c5a6002d6de2a23c/view?project=68347d5d000aff536028&mode=admin",
+      "/images/9.png",
     tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
     category: "android app",
     github: "https://github.com/rishavchanda/Quiz-Earn",
@@ -474,7 +474,7 @@ export const projects = [
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866c4f400209f9138e7/view?project=68347d5d000aff536028&mode=admin",
+      "/images/8.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "web app",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
@@ -487,7 +487,7 @@ export const projects = [
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866c1b0001513847d42/view?project=68347d5d000aff536028&mode=admin",
+      "/images/6.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "web app",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
@@ -499,8 +499,7 @@ export const projects = [
     date: "Jan 2021",
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "/images/7.png",
+    image:"/images/7.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "web app",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",

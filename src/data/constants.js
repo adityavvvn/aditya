@@ -285,7 +285,7 @@ export const projects = [
     description:
       "This project uses alternative data and machine learning to assess credit risk in real time. It includes code, datasets, and a research paper detailing the approach, aiming to improve financial inclusion and decision-making accuracy. The model leverages non-traditional indicators like customer behavior and transaction history. It showcases how real-time analytics can enhance risk evaluation in modern financial systems.",
     image:
-      "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/683482f6001af0e4853d/view?project=68347d5d000aff536028&mode=admin",
+      "/images/13.jpg",
     tags: [
       "Docker",
       "AWS",

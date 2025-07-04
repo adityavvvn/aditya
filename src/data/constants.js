@@ -148,7 +148,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866ae88000513906517/view?project=68347d5d000aff536028&mode=admin",
+    img: "/images/3.jpeg",
     role: "Fullstack Engineering Intern",
     company: "Astron Financial Advisors.",
     date: "April 2025 - June 2025",
@@ -162,7 +162,7 @@ export const experiences = [
       "TypeScript",
     
     ],
-    doc: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6866b12200236181d0af/view?project=68347d5d000aff536028&mode=admin",
+    doc: "/images/17.png",
   },
   /*{
     id: 0,
@@ -250,7 +250,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/68347e8100343a85a28f/view?project=68347d5d000aff536028&mode=admin",
+    img: "/images/16.png",
     school: "Amrita Vishwa Vidyapeetham, Chennai",
     date: "Oct 2022 - Current",
     grade: "7.4 CGPA",
@@ -259,7 +259,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/68347fce0037b93dbdee/view?project=68347d5d000aff536028&mode=admin",
+    img: "/images/14.jpg",
     school: "Sri Chaitanya Junior College, Hyderabad",
     date: "Apr 2020 - Apr 2022",
     grade: "84.9%",
@@ -268,7 +268,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://fra.cloud.appwrite.io/v1/storage/buckets/68347d8e000a8be1e109/files/6834800d003289a28c4b/view?project=68347d5d000aff536028&mode=admin",
+    img: "/images/15.jpg",
     school: "Bharatiya Vidya Bhavan's Atmakuri Rama Rao School, Hyderabad",
     date: "Apr 2019 - Apr 2020",
     grade: "77.8%",

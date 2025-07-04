@@ -310,7 +310,7 @@ export const projects = [
     description:
       "The Chronic Kidney Disease Prediction using Explainable AI project aims to develop a machine learning model for early detection of Chronic Kidney Disease (CKD). By incorporating Explainable AI techniques, the project seeks to provide transparent and interpretable predictions, facilitating better understanding and trust in the model's decisions.",
     image:
-      "/images/4.jpg",
+      "/images/4.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "machine learning",
     github: "https://github.com/adityavvvn/Chronic-Kidney-Disease-Prediction-using-Explainable-AI.git",
@@ -396,7 +396,7 @@ export const projects = [
     description:
       "An early detection system integrating machine learning, clinical biomarkers, and digital health can revolutionize CKD management. By combining predictive analytics with preventive healthcare, we can improve patient outcomes, reduce hospitalizations, and enhance quality of life.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "/images/4.png",
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "python",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
@@ -409,7 +409,7 @@ export const projects = [
     description:
       "Integrating robotics, voice AI, and chatbots into healthcare enhances patient experiences by making healthcare more accessible, efficient, and personalized. These technologies improve hospital operations, enable real-time patient support, and reduce the burden on medical professionals. As AI continues to evolve, the future of healthcare promises even greater innovations, ensuring a seamless and intelligent patient care ecosystem.",
     image:
-      "/images/11.jpg",
+      "/images/11.png",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "python",
     github: "https://github.com/rishavchanda/Job-finder-App",
@@ -435,7 +435,7 @@ export const projects = [
     description:
       "Deep learning-based real-time object detection is revolutionizing multiple industries, enabling smart automation, security, healthcare, and robotics. With advancements in hardware acceleration and deep learning architectures, object detection models continue to become faster, more accurate, and more efficient.",
     image:
-      "/images/12.jpg",
+      "/images/12.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Todo-Web-App",

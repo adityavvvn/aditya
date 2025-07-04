@@ -500,7 +500,7 @@ export const projects = [
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
-      "https://github.com/adityavvvn/aditya/blob/main/public/7.png",
+      "/images/7.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "web app",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",

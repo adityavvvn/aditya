@@ -464,7 +464,7 @@ export const projects = [
       "/images/9.png",
     tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
+    github: "https://github.com/adityavvvn/Digital-Course-File-System",
     webapp: "https://github.com/rishavchanda/Quiz-Earn",
   },
   {
